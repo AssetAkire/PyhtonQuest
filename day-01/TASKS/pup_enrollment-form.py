@@ -2,7 +2,7 @@
 print("PUP Enrollment Form")
 user_name = input("Enter your full name: ")
 age = int(input("Enter your age: "))
-height = float(input("Enter your previous average: "))
+GWA = float(input("Enter your previous average: "))
 is_cloudArchitect = input("Are you a member of the AWS Cloud Club - Department of Cloud Computing? (yes/no): ").lower() == "yes"
 # Be cautious when reading input of various data types.
 
@@ -15,7 +15,7 @@ is_cloudArchitect = input("Are you a member of the AWS Cloud Club - Department o
 print("\nPersonal Information:")
 print(f"Name: {user_name}")
 print(f"Age: {age} years")
-print(f"Previous average: {height:.2f}")
+print(f"Previous average: {GWA:.2f}")
 if is_cloudArchitect:
     print("AWS Cloud Club Member: Yes")
 else:
