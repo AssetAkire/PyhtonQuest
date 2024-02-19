@@ -12,10 +12,10 @@ is_cloudArchitect = input("Are you a member of the AWS Cloud Club - Department o
 
 
 # Write the code ↓ to display the user's personal information.
-print("\nPersonal Information:")
-print(f"Name: {user_name}")
-print(f"Age: {age} years")
-print(f"Previous average: {GWA:.2f}")
+print("\nYour Enrollment Form:")
+print("Name: " + Name)
+print("Age: ", Age)
+print("GWA: ", Average)
 if is_cloudArchitect:
     print("AWS Cloud Club Member: Yes")
 else:
